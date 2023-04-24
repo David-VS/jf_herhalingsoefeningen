@@ -37,4 +37,12 @@ public class Snack {
     public void setPrijs(double prijs) {
         this.prijs = prijs;
     }
+
+    @Override
+    public String toString() {
+        return "Snack{" +
+                "naam='" + naam + '\'' +
+                ", prijs=" + prijs +
+                '}';
+    }
 }
